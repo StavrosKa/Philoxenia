@@ -1,0 +1,252 @@
+
+/* STAVROS Custom CSS
+-------------------------------------------------- */
+
+	/* table no boarder */
+	.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	   background-color: #FBFBEF;
+	} 
+
+	.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+		border: none;
+	} 
+
+	.table-striped-white> tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	   background-color: #FFFFFF;
+	} 
+	
+	/* table boarder only outside*/
+	.table-condensed tbody tr td, .table-condensed tbody tr th, .table-condensed thead tr th {
+		border: none;
+	} 
+	
+	table.table.table-condensed {
+		border: 1px solid lightgreen;
+	}
+	/* Background color */
+	.bgclr {
+		background-color:#F2F2F2;
+	}
+	/* Buttons extra large*/
+	.btn-xl {
+		padding: 18px 28px;
+		font-size: 18px;
+		border-radius: 12px;
+	}
+	/* Text align analoga*/
+	.aristera {
+		text-align: left;
+	}
+	/* Button sto kentro*/
+	.kentro {
+		text-align: center;
+	}
+	.dexia {
+		text-align: right;
+	}
+	.alert {
+		padding: 4px;
+		margin-bottom: 4px;
+		border: 1px solid transparent;
+		border-radius: 6px;
+	}
+	/* Setarw to xrwma toy footer*/
+	.navbar-inverse {
+		background-color: #334960;
+		border-color: #334960;
+	}
+	/* Setarw to xrwma twn grammatwn sto footer*/
+	.navbar-inverse .navbar-nav>li>a {
+		color: #ffffff;
+	}
+	/* Float align left*/
+	.flalignleft {
+		float: left !important;
+	}
+	/* Float align right*/
+	.flalignright {
+		float: right !important;
+	}
+	/* Center align ahref*/
+	.aligncenter {
+		text-align:center; display:block;
+	}
+	
+	/* Set the hover footer color*/
+	.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+		color: #fff;
+		background-color: #6d6d6d;
+	}
+	/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+	.row.content {
+		height: 750px;
+	}
+
+	/* Set gray background color and 100% height */
+	.sidenav {
+		background-color: #f1f1f1;
+		height: 100%;
+		/* padding: 80px 300px 0px 300px; /* Strimwxnw to panel twn koumpiwn kata 110px dexia kai 110px aristera, einai top right bottom left  */
+	}
+	
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+
+      .row.content {height: auto;}
+
+    }
+	/* Setarw th kolona sm-3 dexia na exei automato platos*/
+	@media (min-width: 768px){
+		.col-sm-3 {
+			width: auto;
+		}
+		.sidenav {
+			height: auto;
+			padding: 15px;
+      }
+	  .row.content {height: auto;}
+	}
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+
+      .row.content {height: auto;}
+
+    }
+
+
+	/* Buttons test success responsive */
+	@media (max-width: 767px) 
+	{
+	  .btn-responsive 
+		{
+			padding:7px 13px;
+			font-size:80%;
+			border-radius: 12px;
+	  }
+	  h3 {
+			font-size: 1.2em;
+	  }
+	}
+
+	@media (min-width: 768px) and (max-width: 992px) {
+	  .btn-responsive {
+		padding:10px 20px;
+		font-size:90%;
+		border-radius: 12px;
+	  }
+	  h3 {
+		font-size: 1.8em;
+		}
+	}
+	@media (min-width: 1200px){
+		.col-lg-9 {
+			width: 72% !important;
+		}
+	}
+	
+	/* Lew sto calculator na emfanistei panw apo tous ypoloipous */
+	.calculator-popup{
+		z-index:1051 !important;
+	}
+	/* Customia epomenh gia to calculator style by me */
+
+	.calculator-popup.midnight { background: #f2f2f2 !important; } /* Background color */
+	.midnight .calculator-space { width: 68px; } 
+	.midnight .calculator-result { background-color: #0059b3 !important; 
+		color: #fff; font-size: 1.5em; } 
+
+	.midnight .calculator-row button {
+	color: #737373 !important;
+    background: #ffffff !important;
+    line-height: 2.25em !important;
+    min-width: 36px !important;
+    margin: 0 !important;
+    padding: 1px 6px 1px 6px !important;
+    border: 2px solid #f2f2f2 !important;
+    border-radius: 6px !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    outline: none !important;
+    cursor: pointer !important;
+	width: 40px !important; height: 40px !important;
+	font-size: 1.0em !important;
+	} 
+	.midnight .calculator-row button:hover {
+		background: #26b3f7 !important;
+	}
+	.midnight .calculator-row .calculator-key-down { padding: 7px 3px 3px 7px; 
+		background: url(../../images/des/midnight.gif) no-repeat -38px 0px; } 
+	.midnight .calculator-keystroke { width: 20px; height: 30px; color: #fff; 
+		background-color: #10085a; font-weight: normal; font-size: 0.8em; }
+	
+	
+	.show {
+		display : block;
+	}
+	
+	.hidden {
+		display: none;
+	}
+	/* Custom nav main */
+	.custom-nav {
+		float: right !important;
+		clear: right !important;
+	}
+	/* Custom nav collapse */
+	.custom-col {
+		float: left-side !important;
+		clear: left-side !important;
+	}	
+	
+	/* Setarw sto header to navbar na parei skouro mple xrwma */
+	.nav-tabs{
+		background-color:#334960 !important;
+	}
+	
+	/* Setarw ta href gia to header na einai aspra */
+	.nav-tabs>li>a {
+		color: white !important;
+	}
+	
+	/* Kanw to Username sto header mple anoixto plaisio */
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+		background-color: #537594 !important;
+	}
+	
+	/* Kanw to hover toy header mple anoixto, opws epishs kai to focus tou */
+	.nav-tabs>li>a:hover{
+		background-color: #537594 !important;
+	    border-color: #537594 #537594 #537594 !important;
+	}
+	.nav-tabs>li>a:focus{
+    background-color: #537594 !important;
+	}
+	
+	/* Otan anoigei o footer kai kanw hover allazw to xrwma tou se mple anoixto */
+	.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #537594 !important;
+}
+	/* Dinw sto bootsrap modal ena min width */
+/* 	.modal-dialog{
+		position: relative;
+		display: table; //This is important 
+		overflow-y: auto;    
+		overflow-x: auto;
+		width: auto;
+		min-width: 1400px;   
+	}  */ 

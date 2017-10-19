@@ -1,0 +1,47 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 2.2
+	Author: GeeksLabs
+	Author URL: http://www.themeforest.net/user/geekslabs
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.light-blue {
+    background-color: #c2ecff !important;
+}
+
+.blue {
+    background-color: #3978ad !important;
+}
+
+/* gia to container twn grammwn th xrwmatizw whitesmoke */
+.whitesmoke{
+	background-color:whitesmoke !important;
+}
+
+.yellowsmoke{
+	background-color:#ffffd1 !important;
+}
+
+/* Flexible Footer, goes always down  */
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+/* Reduce footer margins */
+  
+  footer.page-footer {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
